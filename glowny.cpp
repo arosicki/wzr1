@@ -111,8 +111,8 @@ void PoczatekInterakcji()
 	czas_cyklu_WS = clock();             // pomiar aktualnego czasu
 
 	// obiekty sieciowe typu multicast (z podaniem adresu WZR oraz numeru portu)
-	multi_reciv = new multicast_net("224.12.12.73", 10001);      // obiekt do odbioru ramek sieciowych
-	multi_send = new multicast_net("224.12.12.73", 10001);       // obiekt do wysy³ania ramek
+	multi_reciv = new multicast_net("224.12.12.73", 10075);      // obiekt do odbioru ramek sieciowych
+	multi_send = new multicast_net("224.12.12.73", 10075);       // obiekt do wysy³ania ramek
 
 
 	// uruchomienie watku obslugujacego odbior komunikatow
